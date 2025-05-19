@@ -148,7 +148,7 @@
         "sideBar.border": "#09040f",
         "sideBar.foreground": "#8b96ff",
         "errorForeground": "#ff3270",
-        "foreground": "#ffffff",
+        "foreground": "#34eb89",
 		"quickInput.background": "#002212ec",
 		"quickInputList.focusBackground": "#100D23",
 		"quickInputList.focusForeground": "#00FF9C",
@@ -592,7 +592,7 @@
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#34eb89"
 			}
 		},
 		{

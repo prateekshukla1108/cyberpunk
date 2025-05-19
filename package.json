@@ -1,9 +1,9 @@
 {
     "name": "Cyberpunk",
     "displayName": "Cyberpunk",
-    "description": "A crazy cyberpunk theme",
+    "description": "A crazy cyberpunk theme forked from https://github.com/prometheux-ar/cyberpunk",
     "version": "1.2.14",
-    "publisher": "max-SS",
+    "publisher": "prateek-shukla",
     "galleryBanner": {
         "color": "#0a0126",
         "theme": "dark"
@@ -37,10 +37,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/prometheux-ar/cyberpunk"
+        "url": "https://github.com/prateekshukla1108/cyberpunk"
     },
     "bugs": {
-        "url": "https://github.com/prometheux-ar/cyberpunk/issues",
-        "email": "cyberpunk.vsc@outlook.com"
+        "url": "https://github.com/prateekshukla1108/cyberpunk/issues"
     }
 }
+
