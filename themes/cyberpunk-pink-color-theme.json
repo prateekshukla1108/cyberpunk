@@ -1,0 +1,456 @@
+{
+	"name": "Neon Abyss",
+	"type": "dark",
+	"colors": {
+		"titleBar.activeBackground": "#0D0F2B",
+        "titleBar.activeForeground": "#FF40C8",
+		"titleBar.inactiveBackground": "#0D0F2B",
+		"titleBar.inactiveForeground": "#C576F0",
+		"titleBar.border": "#080A1A",
+		"editorGutter.background": "#0A0D25",
+		"editorGutter.addedBackground": "#38A850",
+		"editorGutter.deletedBackground": "#D32F2F",
+		"editorGutter.modifiedBackground": "#6070CF",
+		"merge.commonContentBackground": "#FF1B8D33",
+		"merge.commonHeaderBackground": "#FF1B8D44",
+		"merge.currentContentBackground": "#00E5B027",
+		"merge.currentHeaderBackground": "#00E5B050",
+		"merge.incomingContentBackground": "#8A2BE242",
+        "merge.incomingHeaderBackground": "#8A2BE26B",
+        "terminalCursor.foreground": "#FF1493",
+        "terminal.foreground": "#B070F0",
+        "debugToolBar.background": "#181030",
+        "debugToolBar.border": "#B070F0",
+		"editorLink.activeForeground": "#00D0F0",
+		"textLink.activeForeground": "#00D0F0",
+		"textLink.foreground": "#00D0F0",
+		"button.background": "#AA40D8",
+		"button.foreground": "#05020A",
+		"button.hoverBackground": "#C576F0",
+		"extensionButton.prominentBackground": "#AA40D8",
+		"extensionButton.prominentForeground": "#05020A",
+		"extensionButton.prominentHoverBackground": "#C576F0",
+		"diffEditor.insertedTextBackground": "#00E5B027",
+		"diffEditor.removedTextBackground": "#F0407034",
+		"gitlens.gutterBackgroundColor": "#101528",
+		"gitlens.gutterForegroundColor": "#B070F0",
+		"gitlens.gutterUncommittedForegroundColor": "#FFEE00",
+		"gitlens.lineHighlightBackgroundColor": "#FF1B8D26",
+		"gitlens.lineHighlightOverviewRulerColor": "#FFEE00",
+        "gitlens.trailingLineForegroundColor": "#FF40C849",
+        "gitDecoration.untrackedResourceForeground": "#00E0E0",
+        "gitDecoration.deletedResourceForeground": "#FF2070",
+        "gitDecoration.modifiedResourceForeground": "#40A0FF",
+        "gitDecoration.conflictingResourceForeground": "#FFEE00",
+        "gitDecoration.ignoredResourceForeground": "#7850B070",
+        "gitDecoration.submoduleResourceForeground": "#FFEE00",
+		"activityBar.background": "#181030",
+		"activityBar.foreground": "#D060FF",
+		"activityBarBadge.background": "#FF1493",
+		"activityBarBadge.foreground": "#0A0315",
+        "badge.background": "#FF1493",
+        "badge.foreground": "#0A0315",
+		"activityBar.border": "#0F0A1F",
+		"editor.background": "#080A1E", // Very dark blue, like umbra's #020138
+		"editor.foreground": "#E0D0FF", // A bright, slightly purple-tinted white for default text
+		"editorError.foreground": "#FF3080",
+		"editorRuler.foreground": "#202840",
+		"editor.lineHighlightBackground": "#10153090", // Darker, more prominent
+        "editor.lineHighlightBorder": "#FF149300", // No border for line highlight by default
+		"editor.selectionBackground": "#6A0DAD90", // Vibrant purple selection
+		"editor.selectionHighlightBackground": "#8A2BE270",
+        "editorCursor.foreground": "#FF00BFFF", // Electric Pink cursor
+        "editorWarning.foreground": "#FFD000",
+		"editor.findMatchHighlightBackground": "#8A2BE2BF",
+		"editor.wordHighlightBackground": "#4050B070",
+		"editor.wordHighlightStrongBackground": "#4050B090",
+		"editorGroup.background": "#080A1E",
+		"editorGroup.border": "#202840",
+		"editorGroupHeader.tabsBackground": "#0D0F2B", // Slightly different dark blue
+		"editorIndentGuide.activeBackground": "#D060FF", // Bright purple for active indent
+		"editorIndentGuide.background": "#30386090", // More visible indent guide
+		"editorLineNumber.foreground": "#7080C0",
+		"editorLineNumber.activeForeground": "#00E0E0", // Bright Cyan for active line number
+        "editorWhitespace.foreground": "#3F51B560",
+		"editorHoverWidget.background": "#181030F0",
+		"editorHoverWidget.border": "#D060FF",
+		"editorSuggestWidget.background": "#181030F0",
+		"editorSuggestWidget.border": "#D060FF",
+        "editorSuggestWidget.selectedBackground": "#382058E8", // Darker purple selection
+        "editorSuggestWidget.highlightForeground": "#00E0E0",
+		"editorWidget.background": "#181030",
+        "editorBracketMatch.border": "#FF40C8",
+        "editorBracketMatch.background": "#FF40C833",
+        "editorWidget.border": "#D060FF",
+		"tab.activeForeground": "#FF40C8", // Bright Pink for active tab text
+		"tab.border": "#0D0F2B",
+		"tab.inactiveBackground": "#080A1E",
+		"tab.inactiveForeground": "#A088D0",
+		"tab.activeBackground": "#0D0F2B", // Active tab BG same as editor group header
+        "tab.activeBorder": "#FF40C8", // Bright Pink border for active tab
+        "tab.hoverBackground": "#151A3A",
+		"input.background": "#181030E0",
+		"input.border": "#D060FF",
+        "input.foreground": "#E0D0FF",
+        "input.placeholderForeground": "#A088D0",
+        "inputValidation.warningBackground": "#795548E8",
+        "inputValidation.warningBorder": "#FFB74D",
+        "inputValidation.infoBackground": "#0277BDE8",
+        "inputValidation.infoBorder": "#4FC3F7",
+        "inputValidation.errorBackground": "#8A2BE2E5", // Purple base for error
+        "inputValidation.errorBorder": "#FF3080",     // Pink border for error
+        "panelTitle.activeBorder": "#FF40C8",
+		"dropdown.background": "#181030E0",
+		"dropdown.border": "#D060FF",
+        "dropdown.foreground": "#E0D0FF",
+        "statusBar.debuggingBackground": "#8A2BE2", // Strong Purple for debugging
+        "statusBar.debuggingForeground": "#F0E0FF",
+        "statusBar.debuggingBorder": "#6A0DAD",
+		"statusBar.background": "#181030", // Dark purple for status bar
+		"statusBar.border": "#0F0A1F",
+		"statusBar.foreground": "#D060FF", // Bright Purple for status bar text
+		"list.activeSelectionBackground": "#382058E8",
+		"list.activeSelectionForeground": "#FF40C8",
+		"list.focusBackground": "#382058",
+        "list.focusForeground": "#FF40C8",
+		"list.hoverBackground": "#281840",
+		"list.hoverForeground": "#E0D0FF",
+		"list.highlightForeground": "#00E0E0",
+		"list.inactiveSelectionBackground": "#181030",
+		"list.inactiveSelectionForeground": "#A088D0",
+		"list.errorForeground": "#FF3080",
+        "notificationCenter.border": "#D060FF",
+		"notificationCenterHeader.background": "#281840",
+		"notificationCenterHeader.foreground": "#FF40C8",
+		"notificationLink.foreground": "#00D0F0",
+		"notifications.background": "#181030F5",
+		"notifications.foreground": "#E0D0FF",
+		"notifications.border": "#D060FF",
+		"notificationToast.border": "#D060FF",
+		"progressBar.background": "#FF40C8",
+		"peekViewEditor.matchHighlightBackground": "#8A2BE2BF",
+		"peekView.border": "#B070F0",
+		"peekViewEditor.background": "#0C081A",
+		"peekViewResult.background": "#0C081A",
+		"peekViewResult.fileForeground": "#B070F0",
+		"peekViewTitle.background": "#181030",
+		"peekViewTitleLabel.foreground": "#B070F0",
+		"peekViewTitleDescription.foreground": "#A088D0",
+		"peekViewResult.selectionBackground": "#6A0DAD70",
+		"peekViewResult.lineForeground": "#C0B0E0",
+		"peekViewResult.matchHighlightBackground": "#9C27B06E",
+		"peekViewResult.selectionForeground": "#B070F0",
+		"panel.background": "#0C081A", // Even darker for panels
+		"panel.border": "#B070F0",
+		"panelTitle.activeForeground": "#FF40C8",
+		"panelTitle.inactiveForeground": "#A088D0",
+		"scrollbarSlider.background": "#6A0DAD54",
+		"scrollbarSlider.activeBackground": "#8A2BE26E",
+		"scrollbarSlider.hoverBackground": "#8A2BE26E",
+		"sideBar.background": "#0C081A", // Even darker for sidebar
+        "sideBar.border": "#0F0A1F",
+        "sideBar.foreground": "#C0B0E0",
+        "errorForeground": "#FF4081", // General error text
+        "foreground": "#E0D0FF", // Default foreground for UI elements
+		"quickInput.background": "#181030",
+		"quickInputList.focusBackground": "#382058",
+		"quickInputList.focusForeground": "#FF40C8",
+		"quickInput.foreground": "#C0B0E0",
+		"quickInputList.focusIconForeground": "#FF40C8",
+        "sideBarTitle.foreground": "#D0C0E0",
+        "sideBarSectionHeader.background": "#15102A",
+        "sideBarSectionHeader.foreground": "#FF40C8",
+        "sideBarSectionHeader.border": "#0F0A1F"
+	},
+	"tokenColors": [
+		{
+			"settings": {
+				"foreground": "#E0D0FF", // Default token color (bright, slightly purplish white)
+				"background": "#080A1E"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#706090" // Muted purple, like Umbra's #6766b3
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable",
+				"string constant.other.placeholder"
+			],
+			"settings": {
+				"foreground": "#D0D8FF" // Bright, very light blue/lavender
+			}
+		},
+        {
+            "name": "Language Variables (this, super, self)",
+            "scope": "variable.language",
+            "settings": {
+                "foreground": "#FF70D0", // Lighter, vibrant pink
+                "fontStyle": "italic"
+            }
+        },
+		{
+			"name": "Colors", // For CSS color values if specifically scoped
+			"scope": [
+				"constant.other.color"
+			],
+			"settings": {
+				"foreground": "#D0D8FF"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": [
+				"invalid",
+				"invalid.illegal"
+			],
+			"settings": {
+				"foreground": "#FF2040", // Bright red for invalid
+                "fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Keyword, Storage",
+			"scope": [
+				"keyword", // if, else, for, while, etc.
+				"storage.type", // var, let, const, function, class
+				"storage.modifier" // static, async, public
+			],
+			"settings": {
+				"foreground": "#D050FF" // Strong, vibrant purple (like Umbra's #d57bff)
+			}
+		},
+		{
+			"name": "Operator, Misc Punctuation",
+			"scope": [
+				"keyword.control", // return, import, export, from, try, catch (often different from other keywords)
+				"punctuation", // { } [ ] ( ) ; , . :
+				"meta.tag", // Punctuation within tags < > />
+				"punctuation.definition.tag",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template", // Punctuation for template literals `${}`
+				"keyword.other.substitution"
+			],
+			"settings": {
+				"foreground": "#00C0F0" // Bright Cyan (like Umbra's #00b0ff for operators)
+			}
+		},
+		{
+			"name": "Tag Name (HTML, XML)",
+			"scope": [
+				"entity.name.tag",
+				"meta.tag.sgml",
+				"markup.deleted.git_gutter"
+			],
+			"settings": {
+				"foreground": "#FF40C8" // Electric Pink (like Umbra's #ff5680)
+			}
+		},
+		{
+			"name": "Function Name, Method Name",
+			"scope": [
+				"entity.name.function",
+				"meta.function-call",
+				"variable.function", // For function expressions assigned to vars
+				"support.function", // Built-in functions
+				"keyword.other.special-method"
+			],
+			"settings": {
+				"foreground": "#40E0D0" // Bright Turquoise/Teal (distinct from general operators)
+			}
+		},
+		{
+			"name": "Other Variable, String Link", // e.g. CSS variables
+			"scope": [
+				"support.other.variable",
+				"string.other.link"
+			],
+			"settings": {
+				"foreground": "#00E5B0" // Another shade of bright cyan/greenish-blue
+			}
+		},
+		{
+			"name": "Number, Constant, Function Argument, Unit",
+			"scope": [
+				"constant.numeric",
+				"constant.language", // true, false, null
+				"support.constant", // Other language-provided constants
+				"constant.character", // Character literals
+				"constant.escape", // Escape sequences in strings
+				"variable.parameter", // Function parameters
+				"keyword.other.unit" // CSS units like px, em
+			],
+			"settings": {
+				"foreground": "#FFEA00" // Bright Yellow (like Umbra's #fffc58)
+			}
+		},
+		{
+			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"scope": [
+				"string",
+				"constant.other.symbol",
+				"constant.other.key", // Object keys
+				"entity.other.inherited-class",
+				"markup.heading",
+				"markup.inserted.git_gutter",
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+			],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#60A0FF" // Bright, saturated Blue (like Umbra's #76c1ff)
+			}
+		},
+		{
+			"name": "Class Name, Type Name, Namespace",
+			"scope": [
+				"entity.name", // class names, interface names, type names, modules
+				"support.type", // primitive types if not covered by constant.language
+				"support.class", // built-in classes
+				"support.orther.namespace.use.php",
+				"meta.use.php",
+				"support.other.namespace.php",
+				"markup.changed.git_gutter",
+				"support.type.sys-types"
+			],
+			"settings": {
+				"foreground": "#00E5B0" // Bright Cyan/Aqua (like Umbra's #00FF9C)
+			}
+		},
+		{
+			"name": "CSS Property Name",
+			"scope": [
+				"source.css support.type.property-name",
+				"source.sass support.type.property-name",
+				"source.scss support.type.property-name",
+				"source.less support.type.property-name",
+				"source.stylus support.type.property-name",
+				"source.postcss support.type.property-name"
+			],
+			"settings": {
+				"foreground": "#A0B0FF" // Lighter, slightly desaturated blue for CSS properties
+			}
+		},
+		{
+			"name": "JS/TS Module Imports/Exports",
+			"scope": [
+				"entity.name.module.js",
+				"variable.import.parameter.js",
+				"variable.other.class.js" // Class names in JS often fall here too
+			],
+			"settings": {
+				"foreground": "#FF40C8" // Electric Pink (same as tags for consistency with Umbra)
+			}
+		},
+		{
+			"name": "HTML/XML Attribute Name",
+			"scope": [
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#E080FF" // Light, vibrant purple (like Umbra's #ee6dff)
+			}
+		},
+		{
+			"name": "Inserted", "scope": "markup.inserted",
+			"settings": {"foreground": "#80FF80"} // Bright Green
+		},
+		{
+			"name": "Deleted", "scope": "markup.deleted",
+			"settings": {"foreground": "#FF6060"} // Bright Red
+		},
+		{
+			"name": "Changed", "scope": "markup.changed",
+			"settings": {"foreground": "#FFD060"} // Bright Orange/Yellow
+		},
+		{
+			"name": "Regular Expressions", "scope": "string.regexp",
+			"settings": {"foreground": "#40E0D0"} // Turquoise/Teal
+		},
+		{
+			"name": "URL", "scope": ["*url*", "*link*", "*uri*"],
+			"settings": {"fontStyle": "underline"}
+		},
+		{
+			"name": "Decorators (@)",
+			"scope": [
+				"tag.decorator.js entity.name.tag.js",
+				"tag.decorator.js punctuation.definition.tag.js",
+                "meta.decorator entity.name.function",
+                "meta.decorator punctuation.decorator",
+                "meta.decorator variable.other.readwrite"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#D050FF" // Strong Purple (same as keywords)
+			}
+		},
+		{
+			"name": "JSON Key - Level 0",
+			"scope": "source.json meta.structure.dictionary.json support.type.property-name.json",
+			"settings": {"foreground": "#D050FF"} // Strong Purple
+		},
+		{
+			"name": "JSON Key - Level 1",
+			"scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+			"settings": {"foreground": "#FF40C8"} // Electric Pink
+		},
+		{
+			"name": "JSON Key - Level 2",
+			"scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+			"settings": {"foreground": "#00C0F0"} // Bright Cyan
+		},
+		{
+			"name": "JSON Key - Level 3+",
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {"foreground": "#40E0D0"} // Turquoise/Teal
+		},
+		{
+			"name": "Markdown - Plain",
+			"scope": ["text.html.markdown", "punctuation.definition.list_item.markdown"],
+			"settings": {"foreground": "#C0B0E0"}
+		},
+		{
+			"name": "Markdown - Heading",
+			"scope": ["markdown.heading", "markup.heading | markup.heading entity.name", "markup.heading.markdown punctuation.definition.heading.markdown"],
+			"settings": {"foreground": "#FF40C8", "fontStyle": "bold"}
+		},
+		{
+			"name": "Markup - Italic", "scope": "markup.italic",
+			"settings": {"fontStyle": "italic", "foreground": "#D050FF"}
+		},
+		{
+			"name": "Markup - Bold", "scope": ["markup.bold", "markup.bold string"],
+			"settings": {"fontStyle": "bold", "foreground": "#D050FF"}
+		},
+		{
+			"name": "Markdown - Link",
+			"scope": ["string.other.link.title.markdown", "markup.underline.link.markdown"],
+			"settings": {"foreground": "#00C0F0"}
+		},
+		{
+			"name": "Markdown - Code Block",
+			"scope": ["markup.inline.raw.string.markdown", "markup.fenced_code.block.markdown"],
+			"settings": {"foreground": "#60A0FF"}
+		},
+		{"scope": "token.info-token", "settings": {"foreground": "#00C0F0"}},
+		{"scope": "token.warn-token", "settings": {"foreground": "#FFEA00"}},
+		{"scope": "token.error-token", "settings": {"foreground": "#FF3080"}},
+		{"scope": "token.debug-token", "settings": {"foreground": "#D050FF"}}
+	]
+}

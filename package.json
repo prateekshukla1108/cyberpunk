@@ -32,8 +32,14 @@
                 "label": "Activate SCARLET protocol (beta)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/cyberpunk-scarlet-color-theme.json"
+            },
+            {
+                "label": "Activate Neon Abyss",
+                "uiTheme": "vs-dark",
+                "path": "./themes/cyberpunk-pink-color-theme.json"
             }
-        ]
+ 
+	]
     },
     "repository": {
         "type": "git",
@@ -41,6 +47,8 @@
     },
     "bugs": {
         "url": "https://github.com/prateekshukla1108/cyberpunk/issues"
+    },
+    "dependencies": {
+        "@vscode/vsce": "^3.4.2"
     }
 }
-

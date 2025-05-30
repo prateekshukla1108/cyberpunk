@@ -171,6 +171,7 @@
         "sideBarTitle.foreground": "#bbbbbb",
         "welcomePage.buttonBackground": "#ff005527",
         "welcomePage.buttonHoverBackground": "#ff005573",
+		"menu.background": "#000000d9",
 	},
 	"tokenColors": [
 		{
