@@ -59,7 +59,7 @@
 		"editorRuler.foreground": "#182333",
 
 		// Selection Section
-		"selection.background": "#000000",
+		// "selection.background": "#000000",
 
 		// Editor Section
 		"editor.background": "#101116",
