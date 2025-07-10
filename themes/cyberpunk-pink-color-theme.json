@@ -55,30 +55,30 @@
 		"editor.foreground": "#E0D0FF", // A bright, slightly purple-tinted white for default text
 		"editorError.foreground": "#FF3080",
 		"editorRuler.foreground": "#202840",
-		"editor.lineHighlightBackground": "#10153090", // Darker, more prominent
+		"editor.lineHighlightBackground": "#101530D9", // Darker, more prominent
         "editor.lineHighlightBorder": "#FF149300", // No border for line highlight by default
 		"editor.selectionBackground": "#6A0DAD90", // Vibrant purple selection
 		"editor.selectionHighlightBackground": "#8A2BE270",
         "editorCursor.foreground": "#FF00BFFF", // Electric Pink cursor
         "editorWarning.foreground": "#FFD000",
 		"editor.findMatchHighlightBackground": "#8A2BE2BF",
-		"editor.wordHighlightBackground": "#4050B070",
-		"editor.wordHighlightStrongBackground": "#4050B090",
+		"editor.wordHighlightBackground": "#4050B0D9",
+		"editor.wordHighlightStrongBackground": "#4050B0D9",
 		"editorGroup.background": "#080A1E",
 		"editorGroup.border": "#202840",
 		"editorGroupHeader.tabsBackground": "#0D0F2B", // Slightly different dark blue
 		"editorIndentGuide.activeBackground": "#D060FF", // Bright purple for active indent
-		"editorIndentGuide.background": "#30386090", // More visible indent guide
+		"editorIndentGuide.background": "#303860D9", // More visible indent guide
 		"editorLineNumber.foreground": "#7080C0",
 		"editorLineNumber.activeForeground": "#00E0E0", // Bright Cyan for active line number
         "editorWhitespace.foreground": "#3F51B560",
-		"editorHoverWidget.background": "#181030F0",
+		"editorHoverWidget.background": "#181030D9",
 		"editorHoverWidget.border": "#D060FF",
-		"editorSuggestWidget.background": "#181030F0",
+		"editorSuggestWidget.background": "#181030D9",
 		"editorSuggestWidget.border": "#D060FF",
-        "editorSuggestWidget.selectedBackground": "#382058E8", // Darker purple selection
+        "editorSuggestWidget.selectedBackground": "#382058D9", // Darker purple selection
         "editorSuggestWidget.highlightForeground": "#00E0E0",
-		"editorWidget.background": "#181030",
+		"editorWidget.background": "#181030D9",
         "editorBracketMatch.border": "#FF40C8",
         "editorBracketMatch.background": "#FF40C833",
         "editorWidget.border": "#D060FF",
@@ -89,7 +89,7 @@
 		"tab.activeBackground": "#0D0F2B", // Active tab BG same as editor group header
         "tab.activeBorder": "#FF40C8", // Bright Pink border for active tab
         "tab.hoverBackground": "#151A3A",
-		"input.background": "#181030E0",
+		"input.background": "#181030D9",
 		"input.border": "#D060FF",
         "input.foreground": "#E0D0FF",
         "input.placeholderForeground": "#A088D0",
@@ -97,10 +97,10 @@
         "inputValidation.warningBorder": "#FFB74D",
         "inputValidation.infoBackground": "#0277BDE8",
         "inputValidation.infoBorder": "#4FC3F7",
-        "inputValidation.errorBackground": "#8A2BE2E5", // Purple base for error
+        "inputValidation.errorBackground": "#8A2BE2D9", // Purple base for error
         "inputValidation.errorBorder": "#FF3080",     // Pink border for error
         "panelTitle.activeBorder": "#FF40C8",
-		"dropdown.background": "#181030E0",
+		"dropdown.background": "#181030D9",
 		"dropdown.border": "#D060FF",
         "dropdown.foreground": "#E0D0FF",
         "statusBar.debuggingBackground": "#8A2BE2", // Strong Purple for debugging
@@ -109,31 +109,31 @@
 		"statusBar.background": "#181030", // Dark purple for status bar
 		"statusBar.border": "#0F0A1F",
 		"statusBar.foreground": "#D060FF", // Bright Purple for status bar text
-		"list.activeSelectionBackground": "#382058E8",
+		"list.activeSelectionBackground": "#382058D9",
 		"list.activeSelectionForeground": "#FF40C8",
-		"list.focusBackground": "#382058",
+		"list.focusBackground": "#382058D9",
         "list.focusForeground": "#FF40C8",
 		"list.hoverBackground": "#281840",
 		"list.hoverForeground": "#E0D0FF",
 		"list.highlightForeground": "#00E0E0",
-		"list.inactiveSelectionBackground": "#181030",
+		"list.inactiveSelectionBackground": "#181030D9",
 		"list.inactiveSelectionForeground": "#A088D0",
 		"list.errorForeground": "#FF3080",
         "notificationCenter.border": "#D060FF",
-		"notificationCenterHeader.background": "#281840",
+		"notificationCenterHeader.background": "#281840D9",
 		"notificationCenterHeader.foreground": "#FF40C8",
 		"notificationLink.foreground": "#00D0F0",
-		"notifications.background": "#181030F5",
+		"notifications.background": "#181030D9",
 		"notifications.foreground": "#E0D0FF",
 		"notifications.border": "#D060FF",
 		"notificationToast.border": "#D060FF",
 		"progressBar.background": "#FF40C8",
 		"peekViewEditor.matchHighlightBackground": "#8A2BE2BF",
 		"peekView.border": "#B070F0",
-		"peekViewEditor.background": "#0C081A",
-		"peekViewResult.background": "#0C081A",
+		"peekViewEditor.background": "#0C081AD9",
+		"peekViewResult.background": "#0C081AD9",
 		"peekViewResult.fileForeground": "#B070F0",
-		"peekViewTitle.background": "#181030",
+		"peekViewTitle.background": "#181030D9",
 		"peekViewTitleLabel.foreground": "#B070F0",
 		"peekViewTitleDescription.foreground": "#A088D0",
 		"peekViewResult.selectionBackground": "#6A0DAD70",
@@ -144,16 +144,16 @@
 		"panel.border": "#B070F0",
 		"panelTitle.activeForeground": "#FF40C8",
 		"panelTitle.inactiveForeground": "#A088D0",
-		"scrollbarSlider.background": "#6A0DAD54",
-		"scrollbarSlider.activeBackground": "#8A2BE26E",
-		"scrollbarSlider.hoverBackground": "#8A2BE26E",
+		"scrollbarSlider.background": "#6A0DADd9",
+		"scrollbarSlider.activeBackground": "#8A2BE2d9",
+		"scrollbarSlider.hoverBackground": "#8A2BE2d9",
 		"sideBar.background": "#0C081A", // Even darker for sidebar
         "sideBar.border": "#0F0A1F",
         "sideBar.foreground": "#C0B0E0",
         "errorForeground": "#FF4081", // General error text
         "foreground": "#E0D0FF", // Default foreground for UI elements
-		"quickInput.background": "#181030",
-		"quickInputList.focusBackground": "#382058",
+		"quickInput.background": "#181030D9",
+		"quickInputList.focusBackground": "#382058D9",
 		"quickInputList.focusForeground": "#FF40C8",
 		"quickInput.foreground": "#C0B0E0",
 		"quickInputList.focusIconForeground": "#FF40C8",
