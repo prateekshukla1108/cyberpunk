@@ -19,6 +19,11 @@
     "contributes": {
         "themes": [
             {
+                "label": "Activate Cyberpunk Spacedust",
+                "uiTheme": "vs-dark",
+                "path": "./themes/spacedust-color-theme.json"
+            },
+            {
                 "label": "Activate UMBRA protocol V2",
                 "uiTheme": "vs-dark",
                 "path": "./themes/cyberpunk-umbra-v2.json"
