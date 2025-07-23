@@ -18,7 +18,7 @@
     ],
     "contributes": {
         "themes": [
-            {
+           {
                 "label": "Activate Cyberpunk Spacedust",
                 "uiTheme": "vs-dark",
                 "path": "./themes/spacedust-color-theme.json"
