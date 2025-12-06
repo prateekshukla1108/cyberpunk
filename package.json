@@ -1,68 +1,78 @@
 {
-    "name": "Cyberpunk",
-    "displayName": "Cyberpunk",
-    "description": "A crazy cyberpunk theme forked from https://github.com/prometheux-ar/cyberpunk",
-    "version": "1.2.14",
-    "publisher": "prateek-shukla",
-    "galleryBanner": {
-        "color": "#0a0126",
-        "theme": "dark"
-    },
-    "engines": {
-        "vscode": "^1.18.0"
-    },
-    "license": "MIT",
-    "icon": "cyberpunk_logo_2021.png",
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-           {
-                "label": "Activate Cyberpunk Spacedust",
-                "uiTheme": "vs-dark",
-                "path": "./themes/spacedust-color-theme.json"
-            },
-            {
-                "label": "Activate UMBRA protocol V2",
-                "uiTheme": "vs-dark",
-                "path": "./themes/cyberpunk-umbra-v2.json"
-            },
-            {
-                "label": "Activate Blue Night",
-                "uiTheme": "vs-dark",
-                "path": "./themes/blue-color-theme.json"
-            },
-            {
-                "label": "Activate Night Nebula",
-                "uiTheme": "vs-dark",
-                "path": "./themes/nebula-color-theme.json"
-            },
-            {
-                "label": "Activate UMBRA protocol",
-                "uiTheme": "vs-dark",
-                "path": "./themes/cyberpunk-umbra-color-theme.json"
-            },
-            {
-                "label": "Activate SCARLET protocol (beta)",
-                "uiTheme": "vs-dark",
-                "path": "./themes/cyberpunk-scarlet-color-theme.json"
-            },
-            {
-                "label": "Activate Neon Abyss",
-                "uiTheme": "vs-dark",
-                "path": "./themes/cyberpunk-pink-color-theme.json"
-            }
-        ]
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/prateekshukla1108/cyberpunk"
-    },
-    "bugs": {
-        "url": "https://github.com/prateekshukla1108/cyberpunk/issues"
-    },
-    "dependencies": {
-        "@vscode/vsce": "^3.5.0"
-    }
+  "name": "Cyberpunk",
+  "displayName": "Cyberpunk",
+  "description": "A crazy cyberpunk theme forked from https://github.com/prometheux-ar/cyberpunk",
+  "version": "1.2.14",
+  "publisher": "prateek-shukla",
+  "galleryBanner": {
+    "color": "#0a0126",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.18.0"
+  },
+  "license": "MIT",
+  "icon": "cyberpunk_logo_2021.png",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Activate Cyberpunk Spacedust",
+        "uiTheme": "vs-dark",
+        "path": "./themes/spacedust-color-theme.json"
+      },
+      {
+        "label": "Activate UMBRA protocol V2",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cyberpunk-umbra-v2.json"
+      },
+      {
+        "label": "Activate Cyberpunk Etherial",
+        "uiTheme": "vs-dark",
+        "path": "./themes/etherial.json"
+      },
+      {
+        "label": "Activate Cyberpunk Hack",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hackerman.json"
+      },
+      {
+        "label": "Activate Blue Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blue-color-theme.json"
+      },
+      {
+        "label": "Activate Night Nebula",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nebula-color-theme.json"
+      },
+      {
+        "label": "Activate UMBRA protocol",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cyberpunk-umbra-color-theme.json"
+      },
+      {
+        "label": "Activate SCARLET protocol (beta)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cyberpunk-scarlet-color-theme.json"
+      },
+      {
+        "label": "Activate Neon Abyss",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cyberpunk-pink-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prateekshukla1108/cyberpunk"
+  },
+  "bugs": {
+    "url": "https://github.com/prateekshukla1108/cyberpunk/issues"
+  },
+  "dependencies": {
+    "@vscode/vsce": "^3.5.0"
+  }
 }
